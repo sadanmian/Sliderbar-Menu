@@ -69,3 +69,25 @@ font-family: 'Sen', sans-serif; */
     background-color: #374151;
     color: white;
 }
+
+.color-box{
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 15px;
+
+}
+
+.dark{
+    background-color: #111827;
+}
+
+.night{
+    background-color: #312e81;
+}
+
+.light{
+    background-color: #f3f4f6;
+}
