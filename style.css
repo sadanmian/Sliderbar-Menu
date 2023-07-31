@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&family=Sen:wght@400;500;600;700;800&display=swap');
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Sen', sans-serif; */
+
+*{
+    margin: 0;
+    font-family: 'Sen', sans-serif;
+}
+
+.sidebar{
+    position: absolute;
+    width: 180px;
+    height: 100%;
+    background-color: #111827;
+    color: #9ca3af;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-top, .sidebar-center, .sidebar-bottom{
+    width: 80%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #4b4b4b;
+}
+
+.sidebar-bottom{
+    border: none;
+    justify-content: center;
+}
+
+.logo{
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.brand{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.list-item{
+    margin-bottom: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.list-item-icon{
+    width: 30px;
+    font-size: 20px;
+}
+
+.list-item:hover,.list-item.active{
+    background-color: #374151;
+    color: white;
+}
