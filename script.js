@@ -3,7 +3,6 @@ const night = document.querySelector(".night");
 const light = document.querySelector(".light");
 const sidebar = document.querySelector(".sidebar");
 const activeListItem = document.querySelector(".list-item.active");
-console.log(activeListItem);
 
 dark.addEventListener("click", () => {
   sidebar.className = "sidebar";
